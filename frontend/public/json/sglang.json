@@ -1,0 +1,32 @@
+{
+  "name": "SGLang",
+  "slug": "sglang",
+  "categories": [
+    20
+  ],
+  "date_created": "2025-12-03",
+  "type": "ct",
+  "updateable": true,
+  "privileged": false,
+  "interface_port": 6379,
+  "documentation": "https://valkey.io/docs/",
+  "config_path": "",
+  "website": "https://github.com/sgl-project/sglang",
+  "logo": "https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png",
+  "description": "SGLang is an open source high-performance LLM and vision model serving inference framework",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/sglang.sh",
+      "resources": {
+        "cpu": 8,
+        "ram": 4096,
+        "hdd": 2000,
+        "os": "Debian",
+        "version": "13"
+      }
+    }
+  ],
+  "notes": []
+}
+
